@@ -6,9 +6,6 @@ public class Solution {
             rev = rev * 10 + digit;
             x = x / 10;
         }
-        if(n == rev)
-            return true;
-        else
-            return false;
+        return n == rev;
     }
 }
